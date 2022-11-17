@@ -1,0 +1,222 @@
+{
+  "clients": [
+    {
+      "name": "Stefan Stefanov",
+      "email": "stefan@gmail.com",
+      "phone": "0877686925",
+      "id": 1
+    },
+    {
+      "name": "Alex Popov",
+      "email": "sasho@gmail.com",
+      "phone": "0843294742",
+      "id": 2
+    },
+    {
+      "name": "Ivan Stoqnov",
+      "email": "vankata123@abv.bg",
+      "phone": "+3598483423560",
+      "id": 3
+    },
+    {
+      "name": "Vladislav Keranov",
+      "email": "vladi@uni-plovdiv.com",
+      "phone": "086666666612",
+      "id": 4
+    },
+    {
+      "name": "Zinedin Zidanov",
+      "email": "zizu@ziz.gov",
+      "phone": "084343211324",
+      "id": 5
+    }
+  ],
+  "cars": [
+    {
+      "brand": "Mercedes",
+      "model": "C-Class",
+      "year": "2022",
+      "type": "luxury",
+      "fuel": "petrol",
+      "seats": "5",
+      "price_per_day": "100",
+      "count": "1",
+      "picture": "https://hips.hearstapps.com/hmg-prod/images/2022-mercedes-benz-c-class-106-1613767205.jpg?crop=0.891xw:1.00xh;0.0358xw,0&resize=768:*",
+      "id": 1
+    },
+    {
+      "brand": "Mercedes",
+      "model": "A-Class",
+      "year": "2020",
+      "type": "luxury",
+      "fuel": "petrol",
+      "seats": "5",
+      "price_per_day": "65",
+      "count": "2",
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg/1200px-2018_Mercedes-Benz_A200_AMG_Line_Premium_Automatic_1.3_Front.jpg",
+      "id": 2
+    },
+    {
+      "brand": "Subaru",
+      "model": "Impreza",
+      "year": "2009",
+      "type": "economy",
+      "fuel": "petrol",
+      "seats": "5",
+      "price_per_day": "15",
+      "count": "29",
+      "picture": "https://www.cnet.com/a/img/resize/a2a1d75c9138919de7bbe39410d0c6b0abf4b21b/hub/2010/08/03/4811bed8-bb79-11e2-8a8e-0291187978f3/33435164-2-1333-OVR-1.jpg?auto=webp&width=768",
+      "id": 3
+    },
+    {
+      "brand": "Volkswagen",
+      "model": "Golf II",
+      "year": "1991",
+      "type": "economy",
+      "fuel": "diesel",
+      "seats": "4",
+      "price_per_day": "5",
+      "count": "0",
+      "picture": "https://www.volkswagenag.com/presence/stories/2019/10/die-glorreichen-sieben/Golf-2-front.jpg.x_632.y_1000.trans",
+      "id": 4
+    },
+    {
+      "brand": "Toyota",
+      "model": "Prius",
+      "year": "2023",
+      "type": "economy",
+      "fuel": "electric",
+      "seats": "5",
+      "price_per_day": "96",
+      "count": "2",
+      "picture": "https://hips.hearstapps.com/hmg-prod/images/2023-toyota-prius-japan-front-three-quarters-1668576156.jpg?crop=1.00xw:0.952xh;0,0.0482xh&resize=1200:*",
+      "id": 5
+    },
+    {
+      "type": "SUV",
+      "brand": "Lamborghini",
+      "model": "Urus",
+      "year": "2019",
+      "fuel": "petrol",
+      "seats": "5",
+      "price_per_day": "1000",
+      "count": "2",
+      "picture": "https://www.nastarta.com/wp-content/uploads/2017/12/Lamborghini-Urus-2019-1600-03.jpg",
+      "id": 6
+    },
+    {
+      "brand": "Lada",
+      "model": "Niva",
+      "year": "2005",
+      "type": "SUV",
+      "fuel": "petrol",
+      "seats": "5",
+      "price_per_day": "10",
+      "count": "5",
+      "picture": "https://expeditionportal.com/media/2014/08/IMG_3315.jpg",
+      "id": 7
+    },
+    {
+      "brand": "Mercedes",
+      "model": "Sprinter",
+      "year": "2016",
+      "type": "cargo",
+      "fuel": "diesel",
+      "seats": "2",
+      "price_per_day": "250",
+      "count": "10",
+      "picture": "https://www.formulaimports.com/imagetag/844/main/l/Used-2015-Mercedes-Benz-SPRINTER-CARGO-VAN-4x4-3500-170-EXT-30L-V6-TURBO-DIESEL-5-SPD-AUTO-REARVIEW.jpg",
+      "id": 8
+    },
+    {
+      "brand": "Mitsubishi",
+      "model": "Galant",
+      "year": "2008",
+      "type": "estate",
+      "fuel": "diesel",
+      "picture": "https://s1.cdn.autoevolution.com/images/gallery/MITSUBISHIGalantStationWagon-3272_5.jpg",
+      "seats": "5",
+      "price_per_day": "12",
+      "count": "4",
+      "id": 9
+    },
+    {
+      "brand": "Ferrari",
+      "model": "SF90",
+      "year": "2022",
+      "type": "luxury",
+      "fuel": "hybrid",
+      "seats": "2",
+      "price_per_day": "9000",
+      "count": "0",
+      "picture": "https://img.autotrader.co.za/15242976",
+      "id": 10
+    }
+  ],
+  "rented": [
+    {
+      "client": 2,
+      "car": 4,
+      "start": "2022-10-17 17:32",
+      "end": "2022-11-18 17:32",
+      "total_paid": 5,
+      "id": 3
+    },
+    {
+      "client": 2,
+      "car": 5,
+      "start": "2022-10-19 17:32",
+      "end": "2022-11-20 17:32",
+      "total_paid": 96,
+      "id": 3
+    },
+    {
+      "client": 1,
+      "car": 10,
+      "start": "2022-11-17 17:35",
+      "end": "2022-11-19 17:30",
+      "total_paid": 18000,
+      "id": 1
+    },
+    {
+      "client": 3,
+      "car": 4,
+      "start": "2022-11-22 17:31",
+      "end": "2022-11-30 17:31",
+      "total_paid": 37.2,
+      "id": 2
+    },
+    {
+      "client": 2,
+      "car": 3,
+      "start": "2022-11-17 17:32",
+      "end": "2022-11-18 17:32",
+      "total_paid": 15,
+      "id": 3
+    },
+    {
+      "client": 2,
+      "car": 1,
+      "start": "2022-11-20 17:35",
+      "end": "2022-11-22 17:35",
+      "total_paid": 200,
+      "id": 4
+    },
+    {
+      "client": 2,
+      "car": 1,
+      "start": "2022-11-23 17:35",
+      "end": "2022-11-24 17:35",
+      "total_paid": 85,
+      "id": 5
+    },
+    {
+      "client": 4,
+      "car": 6,
+      "start": "2022-12-04 17:36",
+      "end": "2022-12-07 17:36",
+      "total_paid": 3000,
+      "id": 6
+    }
+  ]
+}

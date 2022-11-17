@@ -1,0 +1,350 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  background: #053742;
+}
+ 
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: top;
+  justify-content: center;
+  overflow: hidden;
+}
+ 
+.Tabs {
+  width: 100%;
+  height: auto;
+  min-height: 100%;
+  padding: 2rem 1rem;
+  color: #E8F0F2;
+  @media (max-width: 769px) {
+    padding: 2rem 0;
+  }
+ 
+}
+ 
+ul.nav {
+  width: 60%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #39A2DB;
+  border-radius: 2rem;
+  padding-left: 0px;
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+ 
+ul.nav li {
+  width: 50%;
+  padding: 1rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.7s;
+}
+ 
+ul.nav li:first-child {
+  border-bottom-left-radius: 2rem;
+  border-top-left-radius: 2rem;
+}
+ 
+ul.nav li:last-child {
+  border-bottom-right-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+ 
+ul.nav li:hover {
+  background: rgba(50, 224, 196, 0.15);
+}
+ 
+ul.nav li.active {
+  background: #39A2DB;
+}
+ 
+.TabContent {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.clientsTable table{
+  border: 2px solid forestgreen!important;
+  width: 800px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.clientsTable{
+  width: 825px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.carsTable{
+  width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.carsTable table{
+  border: 2px solid forestgreen!important;
+  width: 1200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.rentedTable{
+  width: 1200px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.rentedTable table{
+  border: 2px solid forestgreen!important;
+  width: 1200px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+th {
+  border-bottom: 1px solid rgb(236, 210, 58);
+  padding: 10px;
+}
+  
+td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.MyBtn {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.MyBtn:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.MyBtn:hover {
+  background-color: #2c974b;
+}
+
+.MyBtn:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.MyBtn:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.MyBtn:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+}
+
+.ControlButton{
+  width: 30px;
+  height: 30px;
+  cursor:pointer;
+}
+
+.clientsScrollContainer{
+  margin-top: 10px;
+  height: 500px;
+  overflow-y: auto;
+  width: 840px;
+}
+
+.carsScrollContainer{
+  margin-top: 10px;
+  height: 500px;
+  overflow-y: auto;
+  width: 1220px;
+}
+
+.rentedScrollContainer{
+  margin-top: 10px;
+  height: 500px;
+  overflow-y: auto;
+  width: 1230px;
+}
+
+/* Add new Client*/
+
+.add-client-form{
+  margin: auto;
+  width: 550px;
+  height: 430px;
+  color:white;
+  padding-top: 100px;
+}
+
+.add-car-form{
+  margin: auto;
+  width: 1280px;
+  height: 520px;
+  color:white;
+  padding-top: 100px;
+}
+
+.add-rent-form{
+  margin: auto;
+  width: 1280px;
+  height: 380px;
+  color:white;
+  padding-top: 100px;
+}
+
+form{
+  margin-top: 10px;
+  border: 2px solid forestgreen!important;
+  padding: 20px;
+  height: 100%;
+}
+
+.formInput{
+  border: 2px solid rgb(236, 210, 58)!important;
+  width: 100%;
+  height: 35px;
+  margin-bottom: 20px;
+  background-color: #0a424e;
+  color: white;
+  font-size: 16px;
+}
+
+.formInput2{
+  border: 2px solid rgb(236, 210, 58)!important;
+  width: 70%;
+  height: 35px;
+  background-color: #0a424e;
+  color: white;
+  font-size: 16px;
+  float: right;
+}
+
+.formInput3{
+  border: 2px solid rgb(236, 210, 58)!important;
+  width: 80%;
+  height: 35px;
+  background-color: #0a424e;
+  color: white;
+  font-size: 16px;
+  float: right;
+}
+
+#addBtn{
+  width: 80%;
+  height: 40px;
+  margin-left: 46px;
+  font-size: 18px;
+}
+
+#addBtn2{
+  width: 80%;
+  height: 40px;
+  margin-left: 10%;
+  font-size: 18px;
+}
+
+form label{
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.carLabelsLeft{
+  float: left;
+  width: 10%;
+  margin-top: 5px
+}
+
+.carLabelsRight{
+  float: left;
+  width: 30%;
+  margin-top: 5px
+}
+
+.rentLabelsLeft{
+  float: left;
+  width: 15%;
+  margin-top: 5px
+}
+
+.rentLabelsRight{
+  float: left;
+  width: 15%;
+  margin-top: 5px
+}
+
+.inputValidations{
+  margin-top: 70px;
+  color: red;
+  font-size: 17px;
+}
+
+.add-client-form h1{
+  margin-bottom: 30px;
+  margin-left:170px;
+}
+
+.carFormLeftHalf{
+  width: 40%;
+  float: left;
+}
+
+.carFormRightHalf{
+  width: 60%;
+  float: right;
+}
+
+.inputPair{
+  width: 100;
+  height: 80px;
+}
+
+.borderRight{
+  border-right: 1px solid rgb(27, 100, 143)!important;
+}
+
+.rentFormLeftHalf{
+  width: 50%;
+  float: left;
+}
+
+.rentFormRightHalf{
+  width: 50%;
+  float: right;
+}
